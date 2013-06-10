@@ -5,6 +5,8 @@ class TicTacToe
 	end
 	include Singleton
 
+	attr_accessor :board, :player1
+
 	def initialize
 		@board = [ '1', '2', '3', '4', '5', '6', '7', '8', '9']
 		@player1 = true
